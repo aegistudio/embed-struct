@@ -1,0 +1,13 @@
+[package]
+name = "embed-struct"
+version = "0.1.0"
+edition = "2024"
+authors = ["aegistudio (www@aegistudio.net)"]
+
+[dependencies]
+
+[[example]]
+name = "lrucache"
+path = "examples/lrucache.rs"
+crate-type = ["staticlib"]
+test = true
