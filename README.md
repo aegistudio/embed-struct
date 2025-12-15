@@ -2,6 +2,15 @@
 
 Rust library for embedding data structures.
 
+[![CI Status][ci-badge]][ci-url]
+[![MIT licensed][mit-badge]][mit-url]
+
+[ci-badge]: https://github.com/aegistudio/embed-struct/actions/workflows/rust.yml/badge.svg
+[ci-url]: https://github.com/aegistudio/embed-struct/actions/workflows/rust.yml
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-url]: https://github.com/aegistudio/embed-struct/blob/master/LICENSE
+
+
 ## Overview
 
 It's quite common to amalgamate multiple data structures in order to achieve complex functionalities:
