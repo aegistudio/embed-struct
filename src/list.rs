@@ -368,7 +368,9 @@ where
     }
 
     pub fn iter_head(&self, head: P) -> impl Iterator<Item = P> {
-        assert!(self[head].in_list());
+        if !head.null() {
+            assert!(self[head].in_list());
+        }
         ListIterator {
             list: self,
             head: head,
